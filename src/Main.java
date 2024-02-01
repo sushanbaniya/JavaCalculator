@@ -3,9 +3,18 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-        int result = 0;
+        System.out.println();
+        System.out.println();
 
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("WELCOME TO THE CALCULATOR APPLICATION");
+        System.out.println("Enter your name: ");
+        String name = sc.nextLine();
+
+        int result = 0;
+
+
 
         System.out.println("Enter first Number: ");
         String n1 = sc.nextLine();
@@ -30,7 +39,7 @@ public class Main {
             System.out.println("Invalid Operator");
         }
 
-        System.out.println("The Result of " + num1 + " " +  op + " " + num2 + " is: " + result);
+        System.out.println("Hey, " + name.toUpperCase() + " !! " + "The Result of " + num1 + " " +  op + " " + num2 + " is: " + result);
 
 
 
